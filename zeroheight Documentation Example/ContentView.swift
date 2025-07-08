@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Define the components we want to document
     let ComponentDocumentation = [
         DocumentedComponent(
             name: "Primary Button",
-            documentationID: "18cce4",
+            documentationID: "18cce4", // UID for the page in zeroheight
             view: AnyView(
                 PrimaryButton(
                     text: "Greeting",
@@ -23,7 +24,7 @@ struct ContentView: View {
         ),
         DocumentedComponent(
             name: "Toggle",
-            documentationID: "2166a9",
+            documentationID: "2166a9", // UID for the page in zeroheight
             view: AnyView(
                 VStack {
                     Toggle(isOn: .constant(false)) {

@@ -16,6 +16,9 @@ struct DocumentationView: View {
     @State var page: ZHPage?
     @State var errorMessage: String?
     
+    /**
+     Open the documentation URL in the default browser
+     */
     func openUrl(_ url: URL) {
         #if os(iOS)
         if UIApplication.shared.canOpenURL(url) {
@@ -27,7 +30,10 @@ struct DocumentationView: View {
         NSWorkspace.shared.open(url)
         #endif
     }
-
+    
+    /**
+     Get the page for the given ID or set the error
+     */
     func getDocumentation() async {
         do {
             errorMessage = nil
