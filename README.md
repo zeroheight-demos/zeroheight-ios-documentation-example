@@ -1,6 +1,6 @@
 # zeroheight Documentation Example
 
-![recording of what the app looks like](./example-video.mp4)
+https://github.com/user-attachments/assets/b6be4bfd-9b01-4f11-8e7f-8104b97f67de
 
 This iOS app shows an example of showing zeroheight documentation alongside native components.
 
