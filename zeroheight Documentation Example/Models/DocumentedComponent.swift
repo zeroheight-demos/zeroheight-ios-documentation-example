@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct DocumentedComponent : Identifiable {
+    let id = UUID()
+    let name: String
+    let documentationID: String
+    let view: AnyView
+}

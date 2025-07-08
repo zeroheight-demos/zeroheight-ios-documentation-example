@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct DismissButton: View {
+    let action: () -> Void
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            action()
+        } label: {
+            Image(systemName: "xmark.circle.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 20, height: 20)
+                .foregroundColor(.gray.opacity(0.5))
+        }
     }
 }
 
 #Preview {
-    DismissButton()
+    DismissButton(action: {})
 }
