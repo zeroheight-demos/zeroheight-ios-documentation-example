@@ -1,9 +1,10 @@
 # zeroheight Documentation Example
 
+![recording of what the app looks like](./example-video.mp4)
+
 This iOS app shows an example of showing zeroheight documentation alongside native components.
 
 See the [breakdown of how this works on the zeroheight blog](https://zeroheight.com/blog/getting-your-zeroheight-documentation-into-ios/)
-
 
 ## Setup
 
